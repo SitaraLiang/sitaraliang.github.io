@@ -1,0 +1,290 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    padding:0;
+    margin:0;
+    display:grid;
+    font-family: Times, sans-serif;
+    color: white;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 6fr 5fr 1fr;
+    width:100vw;
+    min-height:100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../assets/background.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: repeat;
+  }
+
+  a {
+    text-decoration: none;
+  }
+  
+  /* Style the header */
+  .header {
+    grid-column: 1 / 4;
+    grid-row: 1 / 2;
+    padding: 30px;
+    text-align: center;
+    font-size: 35px;
+
+    position:relative;
+  }
+
+  .header-text {
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    color: white;
+  }
+
+  .greeting {
+    text-align: center;
+    font-size: 25px;
+    top: 50%;
+    left: 50%;
+    color: white;
+  }
+  
+  header > button {
+    border: none;
+    border-radius: 3px;
+    outline: 0;
+    display: inline-block;
+    padding: 10px 25px;
+    color: black;
+    background-color: #ddd;
+    text-align: center;
+    cursor: pointer;
+    font-size: 20px;
+  }
+
+  header > button:hover {
+    background-color: #555;
+    color: white;
+  }
+
+  .fa {
+    padding: 10px;
+    width: 55px;
+    height: auto;
+    border-radius:50%;
+    margin-top: 10px;
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+  
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }
+  
+  .fa-instagram {
+    background: #88127c;
+    /*background: #125688;*/
+    color: white;
+  }
+
+  .fa-github {
+    background: #3900b5;
+    color: white;
+  }
+
+  .fa-mug-saucer {
+    background: #3900b5;
+    color: white;
+  }
+  .fa-file{
+    background: rgb(6, 68, 39);
+    color: white;
+    height:100px;
+    width: 100px;
+    margin-top: 50px;
+    border-radius:0%;
+    padding-top:30px;
+  }
+
+  .fa-code{
+    background: rgb(6, 68, 39);
+    color: white;
+    height:100px;
+    width: 100px;
+    margin-top: 50px;
+    border-radius:0%;
+    padding-top:30px;
+  }
+
+  .fa-folder-open{
+    background: rgb(6, 68, 39);
+    color: white;
+    height:100px;
+    width: 100px;
+    margin-top: 50px;
+    border-radius:0%;
+    padding-top:30px;
+  }
+
+
+
+  .left,
+  .middle,
+  .right {
+    padding: 10px;
+  }
+  
+  .left {
+    background-color: white;
+    grid-column:1 / 2;
+    grid-row: 2 / 3;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    opacity:0.3;
+    text-align: center;
+  }
+
+  .left:hover {
+    opacity: 0.7;
+    background-color: rgb(23, 35, 4);
+  }
+  
+
+  .middle {
+    background-color: white;
+    grid-column:2 / 3;
+    grid-row: 2 / 3;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    opacity:0.3;
+    text-align: center;
+  }
+
+  .middle:hover {
+    opacity: 0.7;
+    background-color: rgb(23, 35, 4);
+  }
+  
+  
+  .right {
+    background-color: white;
+    grid-column:3 / 4;
+    grid-row: 2 / 3;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    opacity:0.3;
+    text-align: center;
+  }
+  
+  .right:hover {
+    opacity: 0.7;
+    background-color: rgb(23, 35, 4);
+  }
+  
+
+ .left span{
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+    font-size:35px;
+    margin-left:30px;
+ }
+
+ .left span:after {
+    content: '\00bb';
+    opacity: 0;
+    top: 0;
+    right: -30px;
+    transition: 0.5s;
+  }
+
+  .left:hover span {
+    padding-right: 25px;
+  }
+  
+  .left:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+
+
+  .middle span{
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+    font-size:35px;
+    margin-left:25px;
+ }
+
+  .middle span:after {
+    content: '\00bb';
+    opacity: 0;
+    top: 0;
+    right: -30px;
+    transition: 0.5s;
+  }
+
+  .middle:hover span {
+    padding-right: 25px;
+  }
+  
+  .middle:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+
+  .right span{
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+    font-size:35px;
+    margin-left:30px;
+ }
+
+  .right span:after {
+    content: '\00bb';
+    opacity: 0;
+    top: 0;
+    right: -30px;
+    transition: 0.5s;
+  }
+
+  .right:hover span {
+    padding-right: 25px;
+  }
+  
+  .right:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+
+  .footer {
+    grid-column:1 / 4;
+    grid-row: 3 / 4;
+    padding-top: 20px;
+    text-align: center;
+    opacity:0.7;
+  }
+  
+
+
+  /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+  @media (max-width: 600px) {
+    .grid-container  {
+
+    }
+  }
