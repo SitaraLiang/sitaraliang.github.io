@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+   <head>
+       <meta charset="utf-8">
+       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <meta http-equiv="X-UA-Compatible" content="IE=edge">
+       <title>CV</title>
+       <link rel="stylesheet" href="./css/style_cv.css">
+       <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+       <script src="./js/script_cv.js"></script>
+       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   </head>
+           
+   <body>
+        <header>
+            <h1 class="title">
+                Sitara Liang
+            </h1>
+            <section class="skill-bar-container">
+                <h3>Tech Skills</h3>
+            <span class="skill-bar">
+            <span class="skills c">C</span>
+            </span>
+            <span class="skill-bar">
+            <span class="skills java">Java</span>
+            </span>
+            <span class="skill-bar">
+            <span class="skills python">Python</span>
+            </span>
+            <span class="skill-bar">
+            <span class="skills html">HTML</span>
+            </span>
+            <span class="skill-bar">
+            <span class="skills css">CSS</span>
+            </span>
+            <span class="skill-bar">
+            <span class="skills js">Javascript</span>
+            </span>
+            <span class="skill-bar">
+            <span class="skills rsicv">RSIC-V</span>
+            </span>
+            <span class="skill-bar">
+            <span class="skills haskell">Haskell</span>
+            </span>
+        </section>
+            
+            <section class="language-skill">
+                <h3>Language Skill</h3>
+                <canvas id="language-chart"></canvas>
+            </section>
+        </header>
+        <article>
+        <section class="timeline">
+            <section class="container left">
+                <section class="content">
+                    <h3>Sep 2022-Now</h3>
+                    <h4>Université de Strasbourg - Computer Science Major</h4>
+                    <p>📍Strasbourg, France
+                    </p>
+                </section>
+            </section>
+        
+            <section class="container right">
+                <section class="content">
+                    <h3>2020-2021</h3>
+                    <h4>Gap Year</h4>
+                    <p>📍Dalian, China</p>
+                </section>
+            </section>
+
+        
+            <section class="container left">
+                <section class="content">
+                    <h3>Feb 2018-Dec 2019</h3>
+                    <h4>Burwood Girls High School</h4>
+                    <p>📍Sydney, Australia</p>
+                </section>
+            </section>
+
+        
+            <section class="container right">
+                <section class="content">
+                    <h3>2016-2017</h3>
+                    <h4>Dalian No.12 High School</h4>
+                    <p>📍Dalian, China</p>
+                </section>
+            </section>
+        </section>
+
+    </article>
+
+    <script>
+
+
+var ctx = document.getElementById("language-chart");
+
+new Chart(ctx, {
+    type: 'polarArea',
+    data: {
+      labels: ["English: C2", "French: C1", "Mandarin: C2", "German: A2"],
+      datasets: [{
+        label: '',
+        data: [9, 7.5,10, 3],
+        borderWidth: 1,
+        backgroundColor: ["#bf97c9","#97a5c9","#b3ace8","#f7cbf4", "#5f5fad"]
+      }]
+    }
+  });
+
+    </script>
+
+
+   </body>
+           
+</html>
