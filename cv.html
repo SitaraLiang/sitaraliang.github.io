@@ -7,11 +7,16 @@
        <title>CV</title>
        <link rel="stylesheet" href="./css/style_cv.css">
        <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-       <script src="./js/script_cv.js"></script>
+       <script src="./js/script_cv.js" defer></script>
        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
    </head>
            
    <body>
+        <header class="mobile-header">            
+            <h1 class="second-title">
+            Sitara Liang
+            </h1>
+        </header>
         <header>
             <h1 class="title">
                 Sitara Liang
@@ -45,11 +50,11 @@
         </section>
             
             <section class="language-skill">
-                <h3>Language Skill</h3>
+                <h3>Language Skills</h3>
                 <canvas id="language-chart"></canvas>
             </section>
         </header>
-        <article>
+        <article class="main">
         <section class="timeline">
             <section class="container left">
                 <section class="content">
@@ -65,7 +70,14 @@
                     <h3>2020-2021</h3>
                     <h4>Gap Year</h4>
                     <p>📍Dalian, China</p>
+                    <button id="myBtn1"><span>read more</span></button>
                 </section>
+            </section>
+            <section id="myModal" class="modal">
+                <article class="modal-content">
+                    <span class="close">&times;</span>
+                    <p>Some text in the Modal..</p>
+                </article>
             </section>
 
         
@@ -74,7 +86,14 @@
                     <h3>Feb 2018-Dec 2019</h3>
                     <h4>Burwood Girls High School</h4>
                     <p>📍Sydney, Australia</p>
+                    <button id="myBtn2"><span>read more</span></button>
                 </section>
+            </section>
+            <section id="myModal" class="modal">
+                <article class="modal-content">
+                    <span class="close">&times;</span>
+                    <p>Some text in the Modal..</p>
+                </article>
             </section>
 
         
@@ -107,6 +126,7 @@ new Chart(ctx, {
     }
   });
 
+  Chart.defaults.color = '#FFF';
     </script>
 
 
