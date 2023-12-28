@@ -462,7 +462,7 @@ header:hover {
 
       
     .content {
-        padding: 10px 20px;
+        padding: 10px 15px;
         background-color: white;
         position: relative;
         border-radius: 6px;
@@ -501,7 +501,7 @@ header:hover {
         position: relative;
         transition: 0.5s;
         font-size:15px;
-        margin-left:10%;
+        margin-left:15%;
         background-color:white;
         border:none;
         color:#7c7c7c;
