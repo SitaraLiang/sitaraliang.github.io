@@ -116,7 +116,7 @@ header:hover {
     font-size: 60px;
     font-style:oblique;
 }
-
+   
 .main {
     grid-column: 2 / 3;
     grid-row: 1 / 3;
