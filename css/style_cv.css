@@ -94,17 +94,16 @@ body {
     visibility: hidden;
 }
 
-.web-header {
+header {
     grid-column: 1 / 2;
     grid-row: 1 / 3;
     text-align: center;
     background-color:aliceblue;
     opacity: 0.6;
-    height:100%;
 }
 
 header:hover {
-    opacity: 0.7;
+    opacity: 0.8;
 }
 
 .title {
@@ -370,7 +369,7 @@ header:hover {
     }
 
     
-    .web-header {
+    header {
         visibility:hidden;
     }
 
@@ -462,7 +461,8 @@ header:hover {
 
       
     .content {
-        padding: 10px 15px;
+        padding: 10px 20px;
+        width:fit-content;
         background-color: white;
         position: relative;
         border-radius: 6px;
@@ -534,6 +534,11 @@ header:hover {
         color:white;
     }
 
+    .language-skill > h3 {
+        margin-left:10%;
+        opacity:0.8;
+    }
+
     #language-chart {
         margin-left:5%;
         text-align: center;
@@ -547,12 +552,16 @@ header:hover {
         padding-right:15%;
         visibility: visible;
     }
+    .skill-bar-container > h3 {
+        margin-left:10%;
+        opacity:0.8;
+    }
 
     .skills {
         text-align: center;
         color: white;
         font-weight:bold;
-    } 
+    }
 
     .skill-bar {
         width:100%;
