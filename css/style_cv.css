@@ -103,8 +103,8 @@ body {
     height:100%;
 }
 
-.web-header:hover {
-    opacity: 0.8;
+header:hover {
+    opacity: 0.9;
 }
 
 .title {
