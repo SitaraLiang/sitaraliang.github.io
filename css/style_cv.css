@@ -94,16 +94,17 @@ body {
     visibility: hidden;
 }
 
-header {
+.web-header {
     grid-column: 1 / 2;
     grid-row: 1 / 3;
     text-align: center;
     background-color:aliceblue;
     opacity: 0.6;
+    height:100%;
 }
 
-header:hover {
-    opacity: 0.9;
+.web-header:hover {
+    opacity: 0.8;
 }
 
 .title {
@@ -369,7 +370,7 @@ header:hover {
     }
 
     
-    header {
+    .web-header {
         visibility:hidden;
     }
 
