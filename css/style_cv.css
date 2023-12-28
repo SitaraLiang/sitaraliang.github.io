@@ -535,11 +535,6 @@ header:hover {
         color:white;
     }
 
-    .language-skill > h3 {
-        margin-left:10%;
-        opacity:0.8;
-    }
-
     #language-chart {
         margin-left:5%;
         text-align: center;
@@ -552,10 +547,6 @@ header:hover {
         padding-left:10%;
         padding-right:15%;
         visibility: visible;
-    }
-    .skill-bar-container > h3 {
-        margin-left:10%;
-        opacity:0.8;
     }
 
     .skills {
