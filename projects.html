@@ -5,11 +5,69 @@
        <meta name="viewport" content="width=device-width, initial-scale=1.0">
        <meta http-equiv="X-UA-Compatible" content="IE=edge">
        <title>School Projects</title>
-       <link rel="stylesheet" href="">
+       <link rel="stylesheet" href="./css/style_projects.css">
+       <script src="./js/script_projects.js" defer></script>
    </head>
            
    <body>
-           
+        <header>
+            <h1>School Projects</h1>
+        </header>
+
+        <article class="container">
+            <section class="slideshow-container">
+
+                <section class="mySlides fade">
+                    <span class="numberSlide">1 / 3</span>
+                    <aside class="text">
+                        <h1>Sokoban</h1>
+                        This establishes the main-axis, thus defining the direction flex items are placed in the flex container. Flexbox is (aside from optional wrapping) a single-direction layout concept. Think of flex items as primarily laying out either in horizontal rows or vertical columns
+                        <button id="myBtn1">
+                            <a href="https://github.com/SitaraLiang/Sokoban">
+                                <span class="button-text">See the project</span>
+                            </a>
+                        </button>
+                    </aside>
+                    <video class="video-container" loop muted="">
+                        <source src="./assets/sokoban.mp4" type="video/mp4">
+                    </video>
+                </section>
+
+                <section class="mySlides fade">
+                    <span class="numberSlide">2 / 3</span>
+                    <aside class="text">
+                        <h1>Driving Monitoring</h1>
+                        This establishes the main-axis, thus defining the direction flex items are placed in the flex container. Flexbox is (aside from optional wrapping) a single-direction layout concept. Think of flex items as primarily laying out either in horizontal rows or vertical columns
+                        <button id="myBtn1"><a href="https://github.com/SitaraLiang/DrivingMonitoring"><span class="button-text">See the project</span></a></button>
+                    </aside>
+                    <video class="video-container" loop muted="">
+                        <source src="./assets/drivingmonitoring.mp4" type="video/mp4">
+                    </video>
+                </section>
+
+                <section class="mySlides fade">
+                    <span class="numberSlide">3 / 3</span>
+                    <aside class="text">
+                        <h1>Space Invader</h1>
+                        This establishes the main-axis, thus defining the direction flex items are placed in the flex container. Flexbox is (aside from optional wrapping) a single-direction layout concept. Think of flex items as primarily laying out either in horizontal rows or vertical columns
+                        <button id="myBtn1"><a href="https://github.com/SitaraLiang/Sokoban"><span class="button-text">See the project</span></a></button>
+                    </aside>
+                    <video class="video-container" muted="">
+                    <!--  <source src="" type="video/mp4"> -->
+                    </video>
+                </section>
+
+
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            </section>
+            <section class="dot-container">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+            </section>
+        </article>
+
    </body>
            
 </html>
