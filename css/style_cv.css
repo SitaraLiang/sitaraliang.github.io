@@ -352,7 +352,6 @@ header:hover {
         grid-row: 1 / 2;
         text-align: center;
         color:white;
-        opacity: 0.8;
         font-size:20px;
     }
 
@@ -533,8 +532,8 @@ header:hover {
     }
 
     .language-skill > h3 {
-        margin-left:10%;
-        opacity:0.8;
+        margin:auto;
+        margin-bottom:10%;
     }
 
     #language-chart {
@@ -551,8 +550,8 @@ header:hover {
         visibility: visible;
     }
     .skill-bar-container > h3 {
-        margin-left:10%;
-        opacity:0.8;
+        margin:auto;
+        margin-bottom: 5%;
     }
 
     .skills {
@@ -571,36 +570,36 @@ header:hover {
 
     .c {
         width: 88%;
-        background-color: #1f3981;
+        background-color: #9189ca;
     }
     .java {
         width: 80%;
-        background-color: #1f3981;
+        background-color: #9189ca;
     }
     .python {
         width: 88%;
-        background-color: #1f3981;
+        background-color: #9189ca;
     }
     .html {
         width: 75%;
-        background-color:#1f3981;
+        background-color:#9189ca;
     }
     .css {
         width: 75%;
-        background-color: #1f3981;
+        background-color: #9189ca;
     }
     .js {
         width:70%;
-        background-color: #1f3981;
+        background-color: #9189ca;
     }
 
     .rsicv {
         width:60%;
-        background-color: #1f3981;
+        background-color: #9189ca;
     }
     .haskell {
         width:40%;
-        background-color: #1f3981;
+        background-color: #9189ca;
     }
 
 
