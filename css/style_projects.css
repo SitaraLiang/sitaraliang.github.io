@@ -261,7 +261,7 @@ header {
     .prev, .next {
         cursor: pointer;
         position: absolute;
-        top: 40%;
+        top: 50%;
         width: auto;
         margin-top:2%;
         padding: 16px;
