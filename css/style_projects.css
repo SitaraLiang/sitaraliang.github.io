@@ -338,7 +338,7 @@ header {
     .text {
         display:flex;
         color: white;
-        width: 70%;
+        width: 80%;
         margin:auto;
         flex-direction: column;
     }
