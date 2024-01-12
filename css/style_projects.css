@@ -106,15 +106,11 @@ header {
     display: flex;
 }
   /* Fading animation */
-  .fade {
-    animation-name: fade;
-    animation-duration: 1.5s;
-  }
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
   
-  @keyframes fade {
-    from {opacity: .4}
-    to {opacity: 1}
-  }
 
 .video-container {
     height:auto;
@@ -196,6 +192,11 @@ header {
     color: white;
     text-decoration: none;
   }
+
+  p {
+    margin: 0;
+  }
+
 
 }
 
