@@ -33,7 +33,6 @@
   }
   50% {
       transform: translateY(0px) scaleY(1);
-
   }
   65% {
       transform: translateY(17px) scaleY(1.1);

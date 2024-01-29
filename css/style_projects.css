@@ -35,12 +35,8 @@
   0% {
       transform: translateY(200px) scaleY(1.1);
   }
-  5% {
-
-  }
   50% {
       transform: translateY(0px) scaleY(1);
-
   }
   65% {
       transform: translateY(17px) scaleY(1.1);
@@ -50,7 +46,6 @@
   }
   100% {
       transform: translateY(0px) scaleY(1);
-
   }
 }
 
@@ -104,8 +99,8 @@ header {
 
 .prev, .next {
     cursor: pointer;
-    position: absolute;
-    top: 50%;
+    position:absolute;
+    top: 30%;
     width: auto;
     margin-top:2%;
     padding: 16px;
@@ -318,7 +313,7 @@ header {
     .prev, .next {
         cursor: pointer;
         position: absolute;
-        top: 50%;
+        top: 30%;
         padding-right: 2%;
         margin-top:2%;
         padding: 10px;
