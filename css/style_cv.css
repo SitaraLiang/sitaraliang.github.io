@@ -207,7 +207,8 @@ header:hover {
     border: medium solid white;
     border-width: 10px 10px 10px 0;
     border-color: transparent white transparent transparent;
-  }
+    animation: drop 0.6s linear forwards;
+ }
 
   .right::after {
     left: -16px;
