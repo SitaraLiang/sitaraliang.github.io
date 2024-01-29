@@ -42,6 +42,7 @@
   }
   100% {
       transform: translateY(0px) scaleY(1);
+      opacity:0.3;
   }
 }
 
@@ -205,6 +206,7 @@ header > button:hover {
   backface-visibility: hidden;
   opacity:0.3;
   text-align: center;
+  margin-left: 0.5px;
 }
 
 .middle:hover {
@@ -225,6 +227,7 @@ header > button:hover {
   backface-visibility: hidden;
   opacity:0.3;
   text-align: center;
+  margin-left: 0.5px;
 }
 
 .right:hover {
