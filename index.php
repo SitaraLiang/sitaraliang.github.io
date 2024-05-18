@@ -25,20 +25,20 @@
         <nav class="left" >
             <i class="fa fa-user fa-2x"></i>
             <h1 class="left-text">Introduce Myself</h1>
-            <a href="cv.html"><span></span></a>
+            <a href="cv.php"><span></span></a>
         </nav>
         <article class="middle">
             <i id="break-chain" class="fa fa-2x"></i>
             <h1 class="middle-text">School Projects</h1>
-            <a href="projects.html"><span></span></a>
+            <a href="projects.php"><span></span></a>
         </article>
         <nav class="right">
             <i id="folder-open" class="fa fa-2x"></i>
             <h1 class="right-text">Open Source Projects</h1>
-            <a href="opensource.html"><span></span></a>
+            <a href="opensource.php"><span></span></a>
         </nav>
  
-        <footer class="footer"">sitaraliang@gmail.com</footer>
+        <footer class="footer">sitaraliang@gmail.com</footer>
    </body>
            
 </html>
