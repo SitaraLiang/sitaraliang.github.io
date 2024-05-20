@@ -5,75 +5,115 @@
        <meta name="viewport" content="width=device-width, initial-scale=1.0">
        <meta http-equiv="X-UA-Compatible" content="IE=edge">
        <title>School Projects</title>
-       <link rel="stylesheet" href="./css/style_projects.css">
-       <script src="./js/script_projects.js" defer></script>
+       <link rel="stylesheet" href="assets/css/style_projects.css">
+       <script src="assets/js/script_projects.js" defer></script>
    </head>
            
    <body>
         <header>
             <h1>School Projects</h1>
         </header>
-
-        <article class="container">
-            <section class="slideshow-container">
-
-                <section class="mySlides fade">
-                    <span class="numberSlide">1 / 3</span>
-                    <aside class="text">
-                        <h1>Sokoban</h1>
-                        Sokoban is a terminal-based game using langage C that reads the pre-designed map from a file. Players control the game by pressing specific keys on the keyboard. During the game, the player can move, push boxes, restart the game, automatically enter the next level of the game, etc.
-                        <button id="myBtn1">
-                            <a href="https://github.com/SitaraLiang/Sokoban">
-                                <span class="button-text">See the project</span>
-                            </a>
-                        </button>
-                    </aside>
-                    <video controls="" class="video-container" loop="" autoplay="" muted="">
-                        <source src="./assets/sokoban.mp4" type="video/mp4">
-                    </video>
-                </section>
-
-                <section class="mySlides fade">
-                    <span class="numberSlide">2 / 3</span>
-                    <aside class="text">
-                        <h1>Driving Monitoring</h1>
-                        Driving Monitoring is a user-friendly website created in html, css and javascript. It support recording your driving trip, searching your record history, drawing different tables based on your data, allowing users to view their driving skills more intuitively. The website can also use GPS positioning and automatically record and calculate your driving distance in real time.
-                        <button id="myBtn1"><a href="https://github.com/SitaraLiang/DrivingMonitoring"><span class="button-text">See the project</span></a></button>
-                    </aside>
-                    <video controls="" class="video-container" loop="" autoplay="" muted="">
-                        <source src="./assets/drivingmonitoring.mp4" type="video/mp4">
-                    </video>
-                </section>
-
-                <section class="mySlides fade">
-                    <span class="numberSlide">3 / 3</span>
-                    <aside class="text">
-                        <h1>Space Invader</h1>
+        <main>
+            <section>
+                <article>
+                    <p>
+                        <img src="assets/img/room_exploration.png" alt="screenshot of room exploration">
+                    </p>
+                    <h2>Room Exploration Game</h2>
+                    <p>This project is part of the Object Oriented Programming course of the fourth semester. The implementation was carried out in Java, with the creation of the graphical interface carried out in Swing.</p>
+                    <nav>
+                        <a href="https://github.com/SitaraLiang/RoomExploration">Read more</a>
                         <p>
-                            The game is a simpler version of the original 
-                            <a href="https://en.wikipedia.org/wiki/Space_Invaders" style="text-decoration:underline;">
-                                Space Invaders
-                            </a> 
-                            with some changes to the rules. The project is created in RISC-V assembler (source code .s or .asm) and executed using the rars1_6 simulator. 
+                            <span>Java</span>
+                            <span>Swing</span>
                         </p>
-                        <button id="myBtn1"><a href="https://github.com/SitaraLiang/SpaceInvader"><span class="button-text">See the project</span></a></button>
-                    </aside>
-                    <video controls="" class="video-container" loop="" autoplay="" muted="">
-                        <source src="./assets/spaceinvader.mp4" type="video/mp4">
-                    </video>
-                </section>
+                    </nav>
 
+                </article>
+                <article>
+                    <p>
+                        <img src="assets/img/hogwarts.png" alt="screenshot of Hogwarts">
+                    </p>
+                    <h2>Hogwarts</h2>
+                    <p>An official (fake) website designed for Hogwarts - School of Witchcraft and Wizardry in Harry Potter. The project is part of the Web Programming course of the fourth semester.</p>
+                    <nav>
+                        <a href="https://github.com/SitaraLiang/Hogwarts">Read more</a>
+                        <p>
+                            <span>PHP</span>
+                            <span>CSS</span>
+                            <span>Javascript</span>
+                        </p>
+                    </nav>
 
-                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                </article>
+                <article>
+                    <p>
+                        <img src="assets/img/space_invader.png" alt="screenshot of space invader">
+                    </p>
+                    <h2>Space Invader</h2>
+                    <p>A simpler version of the original Space Invader game with some changes to the rules. The project is created in RISC-V assembler (source code .s or .asm) and executed using the rars1_6 simulator. </p>
+                    <nav>
+                        <a href="https://github.com/SitaraLiang/SpaceInvader">Read more</a>
+                        <p>
+                            <span>RISC-V assembly</span>
+                        </p>
+                    </nav>
+
+                </article>
+                <article>
+                    <p>
+                        <img src="assets/img/sokoban.png" alt="screenshot of sokoban ">
+                    </p>
+                    <h2>Sokoban</h2>
+                    <p>A traditional terminal-based sokoban game using langage C. Players control the game by pressing specific keys on the keyboard. </p>
+                    <nav>
+                        <a href="https://github.com/SitaraLiang/Sokoban">Read more</a>
+                        <p>
+                            <span>C</span>
+                        </p>
+                    </nav>
+
+                </article>
+                <article>
+                    <p>
+                        <img src="assets/img/relations.png" alt="screenshot of relations">
+                    </p>
+                    <h2>Relations</h2>
+                    <p>Course project of Data structures and algorithms II. As part of a tool to aid criminal investigations, we propose modeling relationships between entities using a relational information graph.</p>
+                    <nav>
+                        <a href="https://github.com/SitaraLiang/Relational-Information-Graph">Read more</a>
+                        <p>
+                            <span>C</span>
+                        </p>
+                    </nav>
+
+                </article>
+                <article>
+                    <p>
+                        <img src="assets/img/driving_montoring.png" alt="screenshot of driving monitoring">
+                    </p>
+                    <h2>Driving Monitoring</h2>
+                    <p>Recording driving trips, searching record history, and drawing various charts based on the data, allowing user to intuitively view their driving skills. Using GPS positioning to automatically record and calculate user's driving distance in real-time.
+                    </p>
+                    <nav>
+                        <a href="https://github.com/SitaraLiang/DrivingMonitor">Read more</a>
+                        <p>
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>Javascript</span>
+                        </p>
+                    </nav>
+
+                </article>
             </section>
-            <section class="dot-container">
-                <span class="dot" onclick="currentSlide(1)"></span>
-                <span class="dot" onclick="currentSlide(2)"></span>
-                <span class="dot" onclick="currentSlide(3)"></span>
-            </section>
-        </article>
 
+
+        </main>
+
+        <footer>
+            <h3>Sitara Liang</h3>
+            <h4>sitaraliang@gmail.com</h4>
+        </footer>
    </body>
            
 </html>
